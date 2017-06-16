@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.yourbarber757" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="Camera">
+        <param name="browser-package" value="Camera" />
+    </feature>
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <name>yourbarber757</name>
+    <description>
+        Now you can contact and book appointments with your barbers directly from your phone
+    </description>
+    <author email="bpacheco813@gmail.com" href="http://bryam.me">
+        Socially Consulting Team
+    </author>
+    <content src="index.html" />
+    <access launch-external="yes" origin="*" />
+    <access launch-external="yes" origin="http://google.com/*" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+</widget>
